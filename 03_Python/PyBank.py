@@ -25,7 +25,7 @@ with open(csvpath) as csvfile:
     #------------- the month count is 85 not 86 - need to figure out why--------
     print("Financial Analysis")
     print("--------------------------")
-    print("Total Months:") print(months)
+    print("Total Months:") #need to get # of months to print here
 
 #--------------------------------------------------------------------------------------------
 # 2. average the profit loss column
