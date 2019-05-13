@@ -1,0 +1,139 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements  */
+
+body {
+    background-color:#f1f1f1;
+}
+
+h1 {
+    font-size: 15px;
+    font-family: Verdana;
+    
+    /* text-indent: 30px; */
+   
+    text-align:left;
+    
+    
+}
+/* 
+h3 {
+    font-size: 30px;
+} */
+
+/* img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+} */
+
+p{
+    text-align:left;
+    font-size:10;
+    font-family: Verdana;
+    /* text-indent: 30px; */
+    /* padding:20px; */
+} 
+/* 
+ul{
+
+}
+
+li{
+
+} */
+
+.box-set {
+    position: relative;
+    height: 400px;
+    background: darkgrey;
+}
+
+.box {
+    position: relative;
+    width: 150px;
+    height:150px;
+    background: #2db34a;
+    border: 2px solid black;
+}
+
+.box-1 {
+    top: 20px;
+}
+
+.box-2 {
+    left: 40px;
+}
+
+.box-3 {
+    right: 20px;
+    bottom: -10px;
+}
+
+.navbar {
+    /* padding: 10px; */
+    background-color: white;
+} 
+
+/* .navbar li {
+    display: inline-block;
+    padding: 20px; 
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+}  */
+
+/* .navbar li a {
+    color: #000;
+    text-decoration: none;
+}  */
+
+.header {
+    height: 200px;
+    padding-top: 20px;
+    background: #cdcdcd;
+}
+
+.header h2 {
+    padding: 60px;
+    margin: 20px;
+    color: #000;
+    text-align: center;
+}
+
+.post {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+
+@media (max-width: 480px) {
+    .navbar li {
+        padding: 10px;
+    }
+}
+
+.post {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+/* 
+.navbar ul {
+    visibility: hidden;
+} */
+
+
+/* This one changes navbar links on right */
+/* #nav-select {
+    visibility: visible;
+} */ */
+
+
+
+.box-1 {
+    background: purple;
+}
+
+
+
